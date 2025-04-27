@@ -9,7 +9,7 @@ import Layout from '../components/Layout';
 
 const AppRoutes = () => {
   return (
-    <Router>
+    <Router basename="/RHPortal">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
